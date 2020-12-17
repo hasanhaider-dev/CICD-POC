@@ -6,7 +6,7 @@ const app = express();
 const port = process.env.PORT || "8000";
 
 app.get("/", (req, res) => {
-    res.status(200).send("WHATABYTE: Pushing this for heroku");
+    res.status(200).send("WHATABYTE: Pushing this change for heroku CICD");
 });
 
 app.listen(port, () => {
