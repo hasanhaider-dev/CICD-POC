@@ -1,0 +1,22 @@
+{
+  "name": "cicd-poc",
+  "version": "1.0.0",
+  "description": "Configuring the CICD Pipleline for Simple Node Project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hasanhaider10p/CICD-POC.git"
+  },
+  "author": "Hasan Haider",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hasanhaider10p/CICD-POC/issues"
+  },
+  "homepage": "https://github.com/hasanhaider10p/CICD-POC#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
